@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECA53A4273E4E6A000789D5 /* AliChannelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA537F273E4E6A000789D5 /* AliChannelManager.m */; };
+		3ECA53A5273E4E6A000789D5 /* AliChannelManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA5380273E4E6A000789D5 /* AliChannelManager.h */; };
+		3ECA53A6273E4E6A000789D5 /* AliSocketService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA5382273E4E6A000789D5 /* AliSocketService.h */; };
+		3ECA53A7273E4E6A000789D5 /* AliSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA5383273E4E6A000789D5 /* AliSocketClient.m */; };
+		3ECA53A8273E4E6A000789D5 /* AliSocketService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA5384273E4E6A000789D5 /* AliSocketService.m */; };
+		3ECA53A9273E4E6A000789D5 /* AliSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA5385273E4E6A000789D5 /* AliSocketClient.h */; };
+		3ECA53B4273E4E6A000789D5 /* AliSandboxModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA5398273E4E6A000789D5 /* AliSandboxModule.h */; };
+		3ECA53B5273E4E6A000789D5 /* AliSandboxModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA5399273E4E6A000789D5 /* AliSandboxModule.m */; };
+		3ECA53B8273E4E6A000789D5 /* AliRibutProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA539E273E4E6A000789D5 /* AliRibutProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ECA53B9273E4E6A000789D5 /* AliRibutSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA539F273E4E6A000789D5 /* AliRibutSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ECA53BA273E4E6A000789D5 /* AliRibutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA53A0273E4E6A000789D5 /* AliRibutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ECA53BB273E4E6A000789D5 /* AliRibutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA53A1273E4E6A000789D5 /* AliRibutManager.m */; };
+		3ED8DE8D27B900BF00E31C8A /* AliScreenshotService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED8DE8B27B900BF00E31C8A /* AliScreenshotService.h */; };
+		3ED8DE8E27B900BF00E31C8A /* AliScreenshotService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DE8C27B900BF00E31C8A /* AliScreenshotService.m */; };
+		3EDA2A8527BCA6F7000DD29F /* AliNetworkItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDA2A8127BCA6F7000DD29F /* AliNetworkItem.h */; };
+		3EDA2A8627BCA6F7000DD29F /* AliNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA2A8227BCA6F7000DD29F /* AliNetworkService.m */; };
+		3EDA2A8727BCA6F7000DD29F /* AliNetworkService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDA2A8327BCA6F7000DD29F /* AliNetworkService.h */; };
+		3EDA2A8827BCA6F7000DD29F /* AliNetworkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA2A8427BCA6F7000DD29F /* AliNetworkItem.m */; };
+		412CD0E4F42CD85566E977E4 /* libPods-AliRibutSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4A81034892B264B91C9B63 /* libPods-AliRibutSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3ECA537F273E4E6A000789D5 /* AliChannelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliChannelManager.m; sourceTree = "<group>"; };
+		3ECA5380273E4E6A000789D5 /* AliChannelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliChannelManager.h; sourceTree = "<group>"; };
+		3ECA5382273E4E6A000789D5 /* AliSocketService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliSocketService.h; sourceTree = "<group>"; };
+		3ECA5383273E4E6A000789D5 /* AliSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliSocketClient.m; sourceTree = "<group>"; };
+		3ECA5384273E4E6A000789D5 /* AliSocketService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliSocketService.m; sourceTree = "<group>"; };
+		3ECA5385273E4E6A000789D5 /* AliSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliSocketClient.h; sourceTree = "<group>"; };
+		3ECA5398273E4E6A000789D5 /* AliSandboxModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliSandboxModule.h; sourceTree = "<group>"; };
+		3ECA5399273E4E6A000789D5 /* AliSandboxModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliSandboxModule.m; sourceTree = "<group>"; };
+		3ECA539E273E4E6A000789D5 /* AliRibutProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliRibutProtocol.h; sourceTree = "<group>"; };
+		3ECA539F273E4E6A000789D5 /* AliRibutSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliRibutSDK.h; sourceTree = "<group>"; };
+		3ECA53A0273E4E6A000789D5 /* AliRibutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliRibutManager.h; sourceTree = "<group>"; };
+		3ECA53A1273E4E6A000789D5 /* AliRibutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliRibutManager.m; sourceTree = "<group>"; };
+		3ED8DE8B27B900BF00E31C8A /* AliScreenshotService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliScreenshotService.h; sourceTree = "<group>"; };
+		3ED8DE8C27B900BF00E31C8A /* AliScreenshotService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliScreenshotService.m; sourceTree = "<group>"; };
+		3EDA2A8127BCA6F7000DD29F /* AliNetworkItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliNetworkItem.h; sourceTree = "<group>"; };
+		3EDA2A8227BCA6F7000DD29F /* AliNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliNetworkService.m; sourceTree = "<group>"; };
+		3EDA2A8327BCA6F7000DD29F /* AliNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliNetworkService.h; sourceTree = "<group>"; };
+		3EDA2A8427BCA6F7000DD29F /* AliNetworkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliNetworkItem.m; sourceTree = "<group>"; };
+		3EF8CF91273A922B00E6DC7B /* AliRibutSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AliRibutSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F10CBF7D98051603619860 /* Pods-AliRibutSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliRibutSDK.debug.xcconfig"; path = "Target Support Files/Pods-AliRibutSDK/Pods-AliRibutSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		86E737748CDF8175FFFFA3B6 /* Pods-AliRibutSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliRibutSDK.release.xcconfig"; path = "Target Support Files/Pods-AliRibutSDK/Pods-AliRibutSDK.release.xcconfig"; sourceTree = "<group>"; };
+		AE4A81034892B264B91C9B63 /* libPods-AliRibutSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliRibutSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF8CF8E273A922B00E6DC7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412CD0E4F42CD85566E977E4 /* libPods-AliRibutSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECA5379273E4E6A000789D5 /* AliRibutSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3ECA537D273E4E6A000789D5 /* Core */,
+				3ECA538E273E4E6A000789D5 /* Channel */,
+				3ECA539D273E4E6A000789D5 /* Api */,
+			);
+			path = AliRibutSDK;
+			sourceTree = "<group>";
+		};
+		3ECA537D273E4E6A000789D5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3ECA537E273E4E6A000789D5 /* Channel */,
+				3ECA5381273E4E6A000789D5 /* Socket */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3ECA537E273E4E6A000789D5 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				3ECA537F273E4E6A000789D5 /* AliChannelManager.m */,
+				3ECA5380273E4E6A000789D5 /* AliChannelManager.h */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		3ECA5381273E4E6A000789D5 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				3ECA5382273E4E6A000789D5 /* AliSocketService.h */,
+				3ECA5383273E4E6A000789D5 /* AliSocketClient.m */,
+				3ECA5384273E4E6A000789D5 /* AliSocketService.m */,
+				3ECA5385273E4E6A000789D5 /* AliSocketClient.h */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		3ECA538E273E4E6A000789D5 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA2A8027BCA6F7000DD29F /* Network */,
+				3ED8DE8A27B900BF00E31C8A /* Screenshot */,
+				3ECA5397273E4E6A000789D5 /* Sandbox */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		3ECA5397273E4E6A000789D5 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				3ECA5398273E4E6A000789D5 /* AliSandboxModule.h */,
+				3ECA5399273E4E6A000789D5 /* AliSandboxModule.m */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		3ECA539D273E4E6A000789D5 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				3ECA539E273E4E6A000789D5 /* AliRibutProtocol.h */,
+				3ECA539F273E4E6A000789D5 /* AliRibutSDK.h */,
+				3ECA53A0273E4E6A000789D5 /* AliRibutManager.h */,
+				3ECA53A1273E4E6A000789D5 /* AliRibutManager.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		3ED8DE8A27B900BF00E31C8A /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DE8B27B900BF00E31C8A /* AliScreenshotService.h */,
+				3ED8DE8C27B900BF00E31C8A /* AliScreenshotService.m */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
+		3EDA2A8027BCA6F7000DD29F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA2A8127BCA6F7000DD29F /* AliNetworkItem.h */,
+				3EDA2A8227BCA6F7000DD29F /* AliNetworkService.m */,
+				3EDA2A8327BCA6F7000DD29F /* AliNetworkService.h */,
+				3EDA2A8427BCA6F7000DD29F /* AliNetworkItem.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3EF8CF87273A922B00E6DC7B = {
+			isa = PBXGroup;
+			children = (
+				3ECA5379273E4E6A000789D5 /* AliRibutSDK */,
+				3EF8CF92273A922B00E6DC7B /* Products */,
+				B08BDFD36C66BE5EA08B6BEE /* Pods */,
+				D3C00FD7A18D00BD9FDDCC46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF8CF92273A922B00E6DC7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF8CF91273A922B00E6DC7B /* AliRibutSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B08BDFD36C66BE5EA08B6BEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63F10CBF7D98051603619860 /* Pods-AliRibutSDK.debug.xcconfig */,
+				86E737748CDF8175FFFFA3B6 /* Pods-AliRibutSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3C00FD7A18D00BD9FDDCC46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A81034892B264B91C9B63 /* libPods-AliRibutSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EF8CF8C273A922B00E6DC7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDA2A8527BCA6F7000DD29F /* AliNetworkItem.h in Headers */,
+				3ECA53B9273E4E6A000789D5 /* AliRibutSDK.h in Headers */,
+				3EDA2A8727BCA6F7000DD29F /* AliNetworkService.h in Headers */,
+				3ECA53B8273E4E6A000789D5 /* AliRibutProtocol.h in Headers */,
+				3ECA53BA273E4E6A000789D5 /* AliRibutManager.h in Headers */,
+				3ECA53B4273E4E6A000789D5 /* AliSandboxModule.h in Headers */,
+				3ECA53A9273E4E6A000789D5 /* AliSocketClient.h in Headers */,
+				3ED8DE8D27B900BF00E31C8A /* AliScreenshotService.h in Headers */,
+				3ECA53A5273E4E6A000789D5 /* AliChannelManager.h in Headers */,
+				3ECA53A6273E4E6A000789D5 /* AliSocketService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3EF8CF90273A922B00E6DC7B /* AliRibutSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF8CF9A273A922B00E6DC7B /* Build configuration list for PBXNativeTarget "AliRibutSDK" */;
+			buildPhases = (
+				D3714DC2D0781C50D78F5E09 /* [CP] Check Pods Manifest.lock */,
+				3EF8CF8C273A922B00E6DC7B /* Headers */,
+				3EF8CF8D273A922B00E6DC7B /* Sources */,
+				3EF8CF8E273A922B00E6DC7B /* Frameworks */,
+				3EF8CF8F273A922B00E6DC7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliRibutSDK;
+			productName = AliRibutSDK;
+			productReference = 3EF8CF91273A922B00E6DC7B /* AliRibutSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF8CF88273A922B00E6DC7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3EF8CF90273A922B00E6DC7B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 3EF8CF8B273A922B00E6DC7B /* Build configuration list for PBXProject "AliRibutSDK" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF8CF87273A922B00E6DC7B;
+			productRefGroup = 3EF8CF92273A922B00E6DC7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF8CF90273A922B00E6DC7B /* AliRibutSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF8CF8F273A922B00E6DC7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D3714DC2D0781C50D78F5E09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AliRibutSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF8CF8D273A922B00E6DC7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECA53A7273E4E6A000789D5 /* AliSocketClient.m in Sources */,
+				3ECA53A8273E4E6A000789D5 /* AliSocketService.m in Sources */,
+				3EDA2A8827BCA6F7000DD29F /* AliNetworkItem.m in Sources */,
+				3EDA2A8627BCA6F7000DD29F /* AliNetworkService.m in Sources */,
+				3ECA53BB273E4E6A000789D5 /* AliRibutManager.m in Sources */,
+				3ED8DE8E27B900BF00E31C8A /* AliScreenshotService.m in Sources */,
+				3ECA53A4273E4E6A000789D5 /* AliChannelManager.m in Sources */,
+				3ECA53B5273E4E6A000789D5 /* AliSandboxModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3EF8CF98273A922B00E6DC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EF8CF99273A922B00E6DC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EF8CF9B273A922B00E6DC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F10CBF7D98051603619860 /* Pods-AliRibutSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.AliRibutSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF8CF9C273A922B00E6DC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E737748CDF8175FFFFA3B6 /* Pods-AliRibutSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.AliRibutSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF8CF8B273A922B00E6DC7B /* Build configuration list for PBXProject "AliRibutSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF8CF98273A922B00E6DC7B /* Debug */,
+				3EF8CF99273A922B00E6DC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF8CF9A273A922B00E6DC7B /* Build configuration list for PBXNativeTarget "AliRibutSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF8CF9B273A922B00E6DC7B /* Debug */,
+				3EF8CF9C273A922B00E6DC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EF8CF88273A922B00E6DC7B /* Project object */;
+}

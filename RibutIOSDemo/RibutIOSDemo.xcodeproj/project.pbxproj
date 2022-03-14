@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E45BE6127BB7D690005786B /* AliDemoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45BE6027BB7D690005786B /* AliDemoService.m */; };
+		3E45BE6727BB9F2F0005786B /* AliNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45BE6427BB9F2F0005786B /* AliNetworkService.m */; };
+		3E45BE6827BB9F2F0005786B /* AliNetworkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45BE6627BB9F2F0005786B /* AliNetworkItem.m */; };
+		3E45BE6C27BBCF420005786B /* AliNewWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45BE6B27BBCF420005786B /* AliNewWorkViewController.m */; };
+		3ED8DEC227B907B500E31C8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DEC127B907B500E31C8A /* AppDelegate.m */; };
+		3ED8DEC527B907B500E31C8A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DEC427B907B500E31C8A /* SceneDelegate.m */; };
+		3ED8DEC827B907B500E31C8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DEC727B907B500E31C8A /* ViewController.m */; };
+		3ED8DECB27B907B500E31C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED8DEC927B907B500E31C8A /* Main.storyboard */; };
+		3ED8DECD27B907B800E31C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ED8DECC27B907B800E31C8A /* Assets.xcassets */; };
+		3ED8DED027B907B800E31C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED8DECE27B907B800E31C8A /* LaunchScreen.storyboard */; };
+		3ED8DED327B907B800E31C8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DED227B907B800E31C8A /* main.m */; };
+		3ED8DEDD27B907B900E31C8A /* RibutIOSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DEDC27B907B900E31C8A /* RibutIOSDemoTests.m */; };
+		3ED8DEE727B907B900E31C8A /* RibutIOSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DEE627B907B900E31C8A /* RibutIOSDemoUITests.m */; };
+		3ED8DEE927B907B900E31C8A /* RibutIOSDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DEE827B907B900E31C8A /* RibutIOSDemoUITestsLaunchTests.m */; };
+		3ED8DF1227B91B1100E31C8A /* StyleDIY.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF0027B91B1100E31C8A /* StyleDIY.m */; };
+		3ED8DF1427B91B1100E31C8A /* LBXScanNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF0527B91B1100E31C8A /* LBXScanNativeViewController.m */; };
+		3ED8DF1527B91B1100E31C8A /* LBXScanBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF0627B91B1100E31C8A /* LBXScanBaseViewController.m */; };
+		3ED8DF1627B91B1100E31C8A /* LBXToast..m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF0827B91B1100E31C8A /* LBXToast..m */; };
+		3ED8DF2227B91CED00E31C8A /* LBXPermissionSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF1C27B91CED00E31C8A /* LBXPermissionSetting.m */; };
+		3ED8DF2327B91CED00E31C8A /* LBXPermissionPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF1D27B91CED00E31C8A /* LBXPermissionPhotos.m */; };
+		3ED8DF2427B91CED00E31C8A /* LBXPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF1E27B91CED00E31C8A /* LBXPermissionCamera.m */; };
+		3ED8DF2527B91CED00E31C8A /* LBXPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF1F27B91CED00E31C8A /* LBXPermission.m */; };
+		3ED8DF4027B9227D00E31C8A /* AliChannelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF2927B9227D00E31C8A /* AliChannelManager.m */; };
+		3ED8DF4127B9227D00E31C8A /* AliSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF2D27B9227D00E31C8A /* AliSocketClient.m */; };
+		3ED8DF4227B9227D00E31C8A /* AliSocketService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF2E27B9227D00E31C8A /* AliSocketService.m */; };
+		3ED8DF4327B9227D00E31C8A /* AliRibutTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF3327B9227D00E31C8A /* AliRibutTool.m */; };
+		3ED8DF4427B9227D00E31C8A /* AliScreenshotService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF3727B9227D00E31C8A /* AliScreenshotService.m */; };
+		3ED8DF4527B9227D00E31C8A /* AliSandboxModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF3A27B9227D00E31C8A /* AliSandboxModule.m */; };
+		3ED8DF4627B9227D00E31C8A /* AliRibutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8DF3F27B9227D00E31C8A /* AliRibutManager.m */; };
+		D8C2423CBB413107974B3533 /* libPods-RibutIOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF2B0FE1B18A1AA1D158798 /* libPods-RibutIOSDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ED8DED927B907B900E31C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ED8DEB527B907B500E31C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ED8DEBC27B907B500E31C8A;
+			remoteInfo = RibutIOSDemo;
+		};
+		3ED8DEE327B907B900E31C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ED8DEB527B907B500E31C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ED8DEBC27B907B500E31C8A;
+			remoteInfo = RibutIOSDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3054B7F7674FF3225418B1C9 /* Pods-RibutIOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RibutIOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-RibutIOSDemo/Pods-RibutIOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3E45BE5F27BB7D690005786B /* AliDemoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliDemoService.h; sourceTree = "<group>"; };
+		3E45BE6027BB7D690005786B /* AliDemoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliDemoService.m; sourceTree = "<group>"; };
+		3E45BE6327BB9F2F0005786B /* AliNetworkItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliNetworkItem.h; sourceTree = "<group>"; };
+		3E45BE6427BB9F2F0005786B /* AliNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliNetworkService.m; sourceTree = "<group>"; };
+		3E45BE6527BB9F2F0005786B /* AliNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliNetworkService.h; sourceTree = "<group>"; };
+		3E45BE6627BB9F2F0005786B /* AliNetworkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliNetworkItem.m; sourceTree = "<group>"; };
+		3E45BE6A27BBCF420005786B /* AliNewWorkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AliNewWorkViewController.h; sourceTree = "<group>"; };
+		3E45BE6B27BBCF420005786B /* AliNewWorkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliNewWorkViewController.m; sourceTree = "<group>"; };
+		3ED8DEBD27B907B500E31C8A /* RibutIOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RibutIOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED8DEC027B907B500E31C8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3ED8DEC127B907B500E31C8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3ED8DEC327B907B500E31C8A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3ED8DEC427B907B500E31C8A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3ED8DEC627B907B500E31C8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3ED8DEC727B907B500E31C8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3ED8DECA27B907B500E31C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ED8DECC27B907B800E31C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ED8DECF27B907B800E31C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ED8DED127B907B800E31C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED8DED227B907B800E31C8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ED8DED827B907B900E31C8A /* RibutIOSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RibutIOSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED8DEDC27B907B900E31C8A /* RibutIOSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibutIOSDemoTests.m; sourceTree = "<group>"; };
+		3ED8DEE227B907B900E31C8A /* RibutIOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RibutIOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED8DEE627B907B900E31C8A /* RibutIOSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibutIOSDemoUITests.m; sourceTree = "<group>"; };
+		3ED8DEE827B907B900E31C8A /* RibutIOSDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibutIOSDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		3ED8DF0027B91B1100E31C8A /* StyleDIY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleDIY.m; sourceTree = "<group>"; };
+		3ED8DF0227B91B1100E31C8A /* LBXScanNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNativeViewController.h; sourceTree = "<group>"; };
+		3ED8DF0527B91B1100E31C8A /* LBXScanNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNativeViewController.m; sourceTree = "<group>"; };
+		3ED8DF0627B91B1100E31C8A /* LBXScanBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanBaseViewController.m; sourceTree = "<group>"; };
+		3ED8DF0727B91B1100E31C8A /* StyleDIY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleDIY.h; sourceTree = "<group>"; };
+		3ED8DF0827B91B1100E31C8A /* LBXToast..m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXToast..m; sourceTree = "<group>"; };
+		3ED8DF0927B91B1100E31C8A /* LBXScanBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanBaseViewController.h; sourceTree = "<group>"; };
+		3ED8DF0F27B91B1100E31C8A /* LBXToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXToast.h; sourceTree = "<group>"; };
+		3ED8DF1A27B91CED00E31C8A /* LBXPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermission.h; sourceTree = "<group>"; };
+		3ED8DF1B27B91CED00E31C8A /* LBXPermissionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCamera.h; sourceTree = "<group>"; };
+		3ED8DF1C27B91CED00E31C8A /* LBXPermissionSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionSetting.m; sourceTree = "<group>"; };
+		3ED8DF1D27B91CED00E31C8A /* LBXPermissionPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionPhotos.m; sourceTree = "<group>"; };
+		3ED8DF1E27B91CED00E31C8A /* LBXPermissionCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCamera.m; sourceTree = "<group>"; };
+		3ED8DF1F27B91CED00E31C8A /* LBXPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermission.m; sourceTree = "<group>"; };
+		3ED8DF2027B91CED00E31C8A /* LBXPermissionPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionPhotos.h; sourceTree = "<group>"; };
+		3ED8DF2127B91CED00E31C8A /* LBXPermissionSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionSetting.h; sourceTree = "<group>"; };
+		3ED8DF2927B9227D00E31C8A /* AliChannelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliChannelManager.m; sourceTree = "<group>"; };
+		3ED8DF2A27B9227D00E31C8A /* AliChannelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliChannelManager.h; sourceTree = "<group>"; };
+		3ED8DF2C27B9227D00E31C8A /* AliSocketService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliSocketService.h; sourceTree = "<group>"; };
+		3ED8DF2D27B9227D00E31C8A /* AliSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliSocketClient.m; sourceTree = "<group>"; };
+		3ED8DF2E27B9227D00E31C8A /* AliSocketService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliSocketService.m; sourceTree = "<group>"; };
+		3ED8DF2F27B9227D00E31C8A /* AliSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliSocketClient.h; sourceTree = "<group>"; };
+		3ED8DF3227B9227D00E31C8A /* AliRibutTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliRibutTool.h; sourceTree = "<group>"; };
+		3ED8DF3327B9227D00E31C8A /* AliRibutTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliRibutTool.m; sourceTree = "<group>"; };
+		3ED8DF3627B9227D00E31C8A /* AliScreenshotService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliScreenshotService.h; sourceTree = "<group>"; };
+		3ED8DF3727B9227D00E31C8A /* AliScreenshotService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliScreenshotService.m; sourceTree = "<group>"; };
+		3ED8DF3927B9227D00E31C8A /* AliSandboxModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliSandboxModule.h; sourceTree = "<group>"; };
+		3ED8DF3A27B9227D00E31C8A /* AliSandboxModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliSandboxModule.m; sourceTree = "<group>"; };
+		3ED8DF3C27B9227D00E31C8A /* AliRibutProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliRibutProtocol.h; sourceTree = "<group>"; };
+		3ED8DF3D27B9227D00E31C8A /* AliRibutSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliRibutSDK.h; sourceTree = "<group>"; };
+		3ED8DF3E27B9227D00E31C8A /* AliRibutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliRibutManager.h; sourceTree = "<group>"; };
+		3ED8DF3F27B9227D00E31C8A /* AliRibutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliRibutManager.m; sourceTree = "<group>"; };
+		784E85B95E1E07FEEC2C49D7 /* Pods-RibutIOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RibutIOSDemo.release.xcconfig"; path = "Target Support Files/Pods-RibutIOSDemo/Pods-RibutIOSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FCF2B0FE1B18A1AA1D158798 /* libPods-RibutIOSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RibutIOSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ED8DEBA27B907B500E31C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C2423CBB413107974B3533 /* libPods-RibutIOSDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED8DED527B907B900E31C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED8DEDF27B907B900E31C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E45BE5E27BB7D690005786B /* ChannelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3E45BE5F27BB7D690005786B /* AliDemoService.h */,
+				3E45BE6027BB7D690005786B /* AliDemoService.m */,
+			);
+			path = ChannelDemo;
+			sourceTree = "<group>";
+		};
+		3E45BE6227BB9F2F0005786B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3E45BE6327BB9F2F0005786B /* AliNetworkItem.h */,
+				3E45BE6427BB9F2F0005786B /* AliNetworkService.m */,
+				3E45BE6527BB9F2F0005786B /* AliNetworkService.h */,
+				3E45BE6627BB9F2F0005786B /* AliNetworkItem.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3E45BE6927BBCF240005786B /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				3E45BE6A27BBCF420005786B /* AliNewWorkViewController.h */,
+				3E45BE6B27BBCF420005786B /* AliNewWorkViewController.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		3ED8DEB427B907B500E31C8A = {
+			isa = PBXGroup;
+			children = (
+				3ED8DEBF27B907B500E31C8A /* RibutIOSDemo */,
+				3ED8DEDB27B907B900E31C8A /* RibutIOSDemoTests */,
+				3ED8DEE527B907B900E31C8A /* RibutIOSDemoUITests */,
+				3ED8DEBE27B907B500E31C8A /* Products */,
+				F1E0D8CEE5B0FFE3A1269BA4 /* Pods */,
+				A818493CAD9BA38C8B103124 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3ED8DEBE27B907B500E31C8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DEBD27B907B500E31C8A /* RibutIOSDemo.app */,
+				3ED8DED827B907B900E31C8A /* RibutIOSDemoTests.xctest */,
+				3ED8DEE227B907B900E31C8A /* RibutIOSDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ED8DEBF27B907B500E31C8A /* RibutIOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3E45BE6927BBCF240005786B /* NetWork */,
+				3E45BE5E27BB7D690005786B /* ChannelDemo */,
+				3ED8DF2627B9227D00E31C8A /* AliRibutSDK */,
+				3ED8DEF927B91B1100E31C8A /* Scan */,
+				3ED8DEC027B907B500E31C8A /* AppDelegate.h */,
+				3ED8DEC127B907B500E31C8A /* AppDelegate.m */,
+				3ED8DEC327B907B500E31C8A /* SceneDelegate.h */,
+				3ED8DEC427B907B500E31C8A /* SceneDelegate.m */,
+				3ED8DEC627B907B500E31C8A /* ViewController.h */,
+				3ED8DEC727B907B500E31C8A /* ViewController.m */,
+				3ED8DEC927B907B500E31C8A /* Main.storyboard */,
+				3ED8DECC27B907B800E31C8A /* Assets.xcassets */,
+				3ED8DECE27B907B800E31C8A /* LaunchScreen.storyboard */,
+				3ED8DED127B907B800E31C8A /* Info.plist */,
+				3ED8DED227B907B800E31C8A /* main.m */,
+			);
+			path = RibutIOSDemo;
+			sourceTree = "<group>";
+		};
+		3ED8DEDB27B907B900E31C8A /* RibutIOSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DEDC27B907B900E31C8A /* RibutIOSDemoTests.m */,
+			);
+			path = RibutIOSDemoTests;
+			sourceTree = "<group>";
+		};
+		3ED8DEE527B907B900E31C8A /* RibutIOSDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DEE627B907B900E31C8A /* RibutIOSDemoUITests.m */,
+				3ED8DEE827B907B900E31C8A /* RibutIOSDemoUITestsLaunchTests.m */,
+			);
+			path = RibutIOSDemoUITests;
+			sourceTree = "<group>";
+		};
+		3ED8DEF927B91B1100E31C8A /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF1927B91CED00E31C8A /* LBXPermissions */,
+				3ED8DEFA27B91B1100E31C8A /* DIYScanViewController */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		3ED8DEFA27B91B1100E31C8A /* DIYScanViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF0027B91B1100E31C8A /* StyleDIY.m */,
+				3ED8DF0127B91B1100E31C8A /* Native */,
+				3ED8DF0627B91B1100E31C8A /* LBXScanBaseViewController.m */,
+				3ED8DF0727B91B1100E31C8A /* StyleDIY.h */,
+				3ED8DF0827B91B1100E31C8A /* LBXToast..m */,
+				3ED8DF0927B91B1100E31C8A /* LBXScanBaseViewController.h */,
+				3ED8DF0F27B91B1100E31C8A /* LBXToast.h */,
+			);
+			path = DIYScanViewController;
+			sourceTree = "<group>";
+		};
+		3ED8DF0127B91B1100E31C8A /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF0227B91B1100E31C8A /* LBXScanNativeViewController.h */,
+				3ED8DF0527B91B1100E31C8A /* LBXScanNativeViewController.m */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		3ED8DF1927B91CED00E31C8A /* LBXPermissions */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF1A27B91CED00E31C8A /* LBXPermission.h */,
+				3ED8DF1B27B91CED00E31C8A /* LBXPermissionCamera.h */,
+				3ED8DF1C27B91CED00E31C8A /* LBXPermissionSetting.m */,
+				3ED8DF1D27B91CED00E31C8A /* LBXPermissionPhotos.m */,
+				3ED8DF1E27B91CED00E31C8A /* LBXPermissionCamera.m */,
+				3ED8DF1F27B91CED00E31C8A /* LBXPermission.m */,
+				3ED8DF2027B91CED00E31C8A /* LBXPermissionPhotos.h */,
+				3ED8DF2127B91CED00E31C8A /* LBXPermissionSetting.h */,
+			);
+			path = LBXPermissions;
+			sourceTree = "<group>";
+		};
+		3ED8DF2627B9227D00E31C8A /* AliRibutSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF2727B9227D00E31C8A /* Core */,
+				3ED8DF3027B9227D00E31C8A /* Utils */,
+				3ED8DF3427B9227D00E31C8A /* Channel */,
+				3ED8DF3B27B9227D00E31C8A /* Api */,
+			);
+			path = AliRibutSDK;
+			sourceTree = "<group>";
+		};
+		3ED8DF2727B9227D00E31C8A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF2827B9227D00E31C8A /* Channel */,
+				3ED8DF2B27B9227D00E31C8A /* Socket */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3ED8DF2827B9227D00E31C8A /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF2927B9227D00E31C8A /* AliChannelManager.m */,
+				3ED8DF2A27B9227D00E31C8A /* AliChannelManager.h */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		3ED8DF2B27B9227D00E31C8A /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF2C27B9227D00E31C8A /* AliSocketService.h */,
+				3ED8DF2D27B9227D00E31C8A /* AliSocketClient.m */,
+				3ED8DF2E27B9227D00E31C8A /* AliSocketService.m */,
+				3ED8DF2F27B9227D00E31C8A /* AliSocketClient.h */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		3ED8DF3027B9227D00E31C8A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF3127B9227D00E31C8A /* Tool */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3ED8DF3127B9227D00E31C8A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF3227B9227D00E31C8A /* AliRibutTool.h */,
+				3ED8DF3327B9227D00E31C8A /* AliRibutTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		3ED8DF3427B9227D00E31C8A /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				3E45BE6227BB9F2F0005786B /* Network */,
+				3ED8DF3527B9227D00E31C8A /* Screenshot */,
+				3ED8DF3827B9227D00E31C8A /* Sandbox */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		3ED8DF3527B9227D00E31C8A /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF3627B9227D00E31C8A /* AliScreenshotService.h */,
+				3ED8DF3727B9227D00E31C8A /* AliScreenshotService.m */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
+		3ED8DF3827B9227D00E31C8A /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF3927B9227D00E31C8A /* AliSandboxModule.h */,
+				3ED8DF3A27B9227D00E31C8A /* AliSandboxModule.m */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		3ED8DF3B27B9227D00E31C8A /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8DF3C27B9227D00E31C8A /* AliRibutProtocol.h */,
+				3ED8DF3D27B9227D00E31C8A /* AliRibutSDK.h */,
+				3ED8DF3E27B9227D00E31C8A /* AliRibutManager.h */,
+				3ED8DF3F27B9227D00E31C8A /* AliRibutManager.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		A818493CAD9BA38C8B103124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCF2B0FE1B18A1AA1D158798 /* libPods-RibutIOSDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1E0D8CEE5B0FFE3A1269BA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3054B7F7674FF3225418B1C9 /* Pods-RibutIOSDemo.debug.xcconfig */,
+				784E85B95E1E07FEEC2C49D7 /* Pods-RibutIOSDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ED8DEBC27B907B500E31C8A /* RibutIOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED8DEEC27B907B900E31C8A /* Build configuration list for PBXNativeTarget "RibutIOSDemo" */;
+			buildPhases = (
+				C8E8B8EEF61FCFF09A085290 /* [CP] Check Pods Manifest.lock */,
+				3ED8DEB927B907B500E31C8A /* Sources */,
+				3ED8DEBA27B907B500E31C8A /* Frameworks */,
+				3ED8DEBB27B907B500E31C8A /* Resources */,
+				BC56ACBF6582C71E8149A9C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RibutIOSDemo;
+			productName = RibutIOSDemo;
+			productReference = 3ED8DEBD27B907B500E31C8A /* RibutIOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ED8DED727B907B900E31C8A /* RibutIOSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED8DEEF27B907B900E31C8A /* Build configuration list for PBXNativeTarget "RibutIOSDemoTests" */;
+			buildPhases = (
+				3ED8DED427B907B900E31C8A /* Sources */,
+				3ED8DED527B907B900E31C8A /* Frameworks */,
+				3ED8DED627B907B900E31C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ED8DEDA27B907B900E31C8A /* PBXTargetDependency */,
+			);
+			name = RibutIOSDemoTests;
+			productName = RibutIOSDemoTests;
+			productReference = 3ED8DED827B907B900E31C8A /* RibutIOSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ED8DEE127B907B900E31C8A /* RibutIOSDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED8DEF227B907B900E31C8A /* Build configuration list for PBXNativeTarget "RibutIOSDemoUITests" */;
+			buildPhases = (
+				3ED8DEDE27B907B900E31C8A /* Sources */,
+				3ED8DEDF27B907B900E31C8A /* Frameworks */,
+				3ED8DEE027B907B900E31C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ED8DEE427B907B900E31C8A /* PBXTargetDependency */,
+			);
+			name = RibutIOSDemoUITests;
+			productName = RibutIOSDemoUITests;
+			productReference = 3ED8DEE227B907B900E31C8A /* RibutIOSDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ED8DEB527B907B500E31C8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3ED8DEBC27B907B500E31C8A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3ED8DED727B907B900E31C8A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3ED8DEBC27B907B500E31C8A;
+					};
+					3ED8DEE127B907B900E31C8A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3ED8DEBC27B907B500E31C8A;
+					};
+				};
+			};
+			buildConfigurationList = 3ED8DEB827B907B500E31C8A /* Build configuration list for PBXProject "RibutIOSDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ED8DEB427B907B500E31C8A;
+			productRefGroup = 3ED8DEBE27B907B500E31C8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ED8DEBC27B907B500E31C8A /* RibutIOSDemo */,
+				3ED8DED727B907B900E31C8A /* RibutIOSDemoTests */,
+				3ED8DEE127B907B900E31C8A /* RibutIOSDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ED8DEBB27B907B500E31C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED8DED027B907B800E31C8A /* LaunchScreen.storyboard in Resources */,
+				3ED8DECD27B907B800E31C8A /* Assets.xcassets in Resources */,
+				3ED8DECB27B907B500E31C8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED8DED627B907B900E31C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED8DEE027B907B900E31C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC56ACBF6582C71E8149A9C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RibutIOSDemo/Pods-RibutIOSDemo-resources.sh",
+				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CodeScan.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RibutIOSDemo/Pods-RibutIOSDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E8B8EEF61FCFF09A085290 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RibutIOSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ED8DEB927B907B500E31C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED8DF4127B9227D00E31C8A /* AliSocketClient.m in Sources */,
+				3ED8DEC827B907B500E31C8A /* ViewController.m in Sources */,
+				3ED8DF4527B9227D00E31C8A /* AliSandboxModule.m in Sources */,
+				3ED8DEC227B907B500E31C8A /* AppDelegate.m in Sources */,
+				3ED8DF4327B9227D00E31C8A /* AliRibutTool.m in Sources */,
+				3ED8DF2527B91CED00E31C8A /* LBXPermission.m in Sources */,
+				3ED8DF1627B91B1100E31C8A /* LBXToast..m in Sources */,
+				3ED8DF2327B91CED00E31C8A /* LBXPermissionPhotos.m in Sources */,
+				3E45BE6C27BBCF420005786B /* AliNewWorkViewController.m in Sources */,
+				3ED8DED327B907B800E31C8A /* main.m in Sources */,
+				3E45BE6727BB9F2F0005786B /* AliNetworkService.m in Sources */,
+				3ED8DF2227B91CED00E31C8A /* LBXPermissionSetting.m in Sources */,
+				3ED8DF4427B9227D00E31C8A /* AliScreenshotService.m in Sources */,
+				3E45BE6827BB9F2F0005786B /* AliNetworkItem.m in Sources */,
+				3ED8DF2427B91CED00E31C8A /* LBXPermissionCamera.m in Sources */,
+				3ED8DF1527B91B1100E31C8A /* LBXScanBaseViewController.m in Sources */,
+				3ED8DF1427B91B1100E31C8A /* LBXScanNativeViewController.m in Sources */,
+				3ED8DEC527B907B500E31C8A /* SceneDelegate.m in Sources */,
+				3E45BE6127BB7D690005786B /* AliDemoService.m in Sources */,
+				3ED8DF4227B9227D00E31C8A /* AliSocketService.m in Sources */,
+				3ED8DF1227B91B1100E31C8A /* StyleDIY.m in Sources */,
+				3ED8DF4027B9227D00E31C8A /* AliChannelManager.m in Sources */,
+				3ED8DF4627B9227D00E31C8A /* AliRibutManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED8DED427B907B900E31C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED8DEDD27B907B900E31C8A /* RibutIOSDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED8DEDE27B907B900E31C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED8DEE927B907B900E31C8A /* RibutIOSDemoUITestsLaunchTests.m in Sources */,
+				3ED8DEE727B907B900E31C8A /* RibutIOSDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ED8DEDA27B907B900E31C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ED8DEBC27B907B500E31C8A /* RibutIOSDemo */;
+			targetProxy = 3ED8DED927B907B900E31C8A /* PBXContainerItemProxy */;
+		};
+		3ED8DEE427B907B900E31C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ED8DEBC27B907B500E31C8A /* RibutIOSDemo */;
+			targetProxy = 3ED8DEE327B907B900E31C8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ED8DEC927B907B500E31C8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ED8DECA27B907B500E31C8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ED8DECE27B907B800E31C8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ED8DECF27B907B800E31C8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ED8DEEA27B907B900E31C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3ED8DEEB27B907B900E31C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ED8DEED27B907B900E31C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3054B7F7674FF3225418B1C9 /* Pods-RibutIOSDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YKYB5YMSRP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RibutIOSDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要相机权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.RibutIOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ED8DEEE27B907B900E31C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784E85B95E1E07FEEC2C49D7 /* Pods-RibutIOSDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YKYB5YMSRP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RibutIOSDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要相机权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.RibutIOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3ED8DEF027B907B900E31C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.RibutIOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RibutIOSDemo.app/RibutIOSDemo";
+			};
+			name = Debug;
+		};
+		3ED8DEF127B907B900E31C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.RibutIOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RibutIOSDemo.app/RibutIOSDemo";
+			};
+			name = Release;
+		};
+		3ED8DEF327B907B900E31C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.RibutIOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RibutIOSDemo;
+			};
+			name = Debug;
+		};
+		3ED8DEF427B907B900E31C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.RibutIOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RibutIOSDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ED8DEB827B907B500E31C8A /* Build configuration list for PBXProject "RibutIOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED8DEEA27B907B900E31C8A /* Debug */,
+				3ED8DEEB27B907B900E31C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ED8DEEC27B907B900E31C8A /* Build configuration list for PBXNativeTarget "RibutIOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED8DEED27B907B900E31C8A /* Debug */,
+				3ED8DEEE27B907B900E31C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ED8DEEF27B907B900E31C8A /* Build configuration list for PBXNativeTarget "RibutIOSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED8DEF027B907B900E31C8A /* Debug */,
+				3ED8DEF127B907B900E31C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ED8DEF227B907B900E31C8A /* Build configuration list for PBXNativeTarget "RibutIOSDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED8DEF327B907B900E31C8A /* Debug */,
+				3ED8DEF427B907B900E31C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ED8DEB527B907B500E31C8A /* Project object */;
+}

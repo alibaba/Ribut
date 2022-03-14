@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#f4f4f4" />
+
+    <Button
+        android:id="@+id/ribut_scan_button"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="扫一扫" />
+
+    <Button
+        android:id="@+id/ribut_connect_button"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:text="模拟请求"/>
+
+    <Button
+        android:id="@+id/ribut_reconnect"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:text="一键重连"/>
+</LinearLayout>

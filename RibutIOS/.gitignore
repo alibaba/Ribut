@@ -1,0 +1,21 @@
+.DS_Store
+.hgignore
+DerivedData/*
+Podfile.lock
+Pods/*
+build/*
+.hg/*
+
+# vim
+*.swp
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+#project.xcworkspace/
+xcuserdata/
+*.xcworkspace
+

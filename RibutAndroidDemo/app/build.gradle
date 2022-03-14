@@ -1,0 +1,41 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.youku.ribut"
+        minSdk 21
+        targetSdk 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'com.huawei.hms:scanplus:2.3.0.300'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation project(':RibutAndroid:RibutSDK')
+    // okhttp
+    implementation 'com.squareup.okhttp3:okhttp:3.12.3'
+    implementation 'org.projectlombok:lombok:1.18.12'
+    implementation('com.alibaba:fastjson:1.2.76')
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+}

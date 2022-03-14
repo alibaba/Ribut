@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+        maven {url 'https://developer.huawei.com/repo/'}
+    }
+}
+rootProject.name = "Ribut"
+includeFlat 'RibutAndroid'
+include ':app'
+include ':RibutAndroid:RibutSDK'
