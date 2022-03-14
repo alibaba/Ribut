@@ -6,22 +6,19 @@ Pod::Spec.new do |s|
   s.description  = "AliRibutSDK"
 
 
-
-  s.homepage     = "http://gitlab.alibaba-inc.com/weixiao.yz/AliRibutSDK"
+  s.homepage     = "https://github.com/alibaba/Ribut"
 
 
   s.author             = { "weixiao" => "weixiao.yz@alibaba-inc.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "git@gitlab.alibaba-inc.com:weixiao.yz/AliRibutSDK.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/alibaba/Ribut.git", :tag => "#{s.version}" }
 
-  s.source_files = 'AliRibutSDK/**/*.{h,m,mm,c}'
+  s.source_files = 'RibutIOS/**/*.{h,m,mm,c}'
   s.resources = 'AliRibutSDK/Resources/**'
   s.xcconfig = { "ENABLE_BITCODE" => "NO" }
   s.requires_arc = true
   s.dependency  'AFNetworking'
-  s.dependency  'WindVane'
   s.dependency 'SocketRocket'
-  s.dependency  'AliUserTrackInterface'
   
   
 end
