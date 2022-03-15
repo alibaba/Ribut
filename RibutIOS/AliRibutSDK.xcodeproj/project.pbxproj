@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E25320527E0B16A0002E9EB /* AliRibutSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E25320427E0B16A0002E9EB /* AliRibutSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3ECA53A4273E4E6A000789D5 /* AliChannelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA537F273E4E6A000789D5 /* AliChannelManager.m */; };
 		3ECA53A5273E4E6A000789D5 /* AliChannelManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA5380273E4E6A000789D5 /* AliChannelManager.h */; };
 		3ECA53A6273E4E6A000789D5 /* AliSocketService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA5382273E4E6A000789D5 /* AliSocketService.h */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E25320427E0B16A0002E9EB /* AliRibutSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliRibutSDK.h; sourceTree = "<group>"; };
 		3ECA537F273E4E6A000789D5 /* AliChannelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliChannelManager.m; sourceTree = "<group>"; };
 		3ECA5380273E4E6A000789D5 /* AliChannelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliChannelManager.h; sourceTree = "<group>"; };
 		3ECA5382273E4E6A000789D5 /* AliSocketService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliSocketService.h; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		3ECA5379273E4E6A000789D5 /* AliRibutSDK */ = {
 			isa = PBXGroup;
 			children = (
+				3E25320427E0B16A0002E9EB /* AliRibutSDK.h */,
 				3ECA537D273E4E6A000789D5 /* Core */,
 				3ECA538E273E4E6A000789D5 /* Channel */,
 				3ECA539D273E4E6A000789D5 /* Api */,
@@ -195,6 +198,7 @@
 			files = (
 				3EDA2A8527BCA6F7000DD29F /* AliNetworkItem.h in Headers */,
 				3EDA2A8727BCA6F7000DD29F /* AliNetworkService.h in Headers */,
+				3E25320527E0B16A0002E9EB /* AliRibutSDK.h in Headers */,
 				3ECA53B8273E4E6A000789D5 /* AliRibutProtocol.h in Headers */,
 				3ECA53BA273E4E6A000789D5 /* AliRibutManager.h in Headers */,
 				3ECA53B4273E4E6A000789D5 /* AliSandboxModule.h in Headers */,
