@@ -438,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63F10CBF7D98051603619860 /* Pods-AliRibutSDK.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -469,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86E737748CDF8175FFFFA3B6 /* Pods-AliRibutSDK.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
