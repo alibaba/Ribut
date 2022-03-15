@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/alibaba/Ribut.git", :tag => "#{s.version}" }
 
   s.source_files = "AliRibutSDK/**/*.{h,m}"
-  s.public_header_files = "AliRibutSDK/AliRibutSDK.h"
   s.requires_arc = true
   s.dependency  'AFNetworking'
   s.dependency 'SocketRocket'
