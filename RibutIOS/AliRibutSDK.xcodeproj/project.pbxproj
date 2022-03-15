@@ -16,7 +16,6 @@
 		3ECA53B4273E4E6A000789D5 /* AliSandboxModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA5398273E4E6A000789D5 /* AliSandboxModule.h */; };
 		3ECA53B5273E4E6A000789D5 /* AliSandboxModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA5399273E4E6A000789D5 /* AliSandboxModule.m */; };
 		3ECA53B8273E4E6A000789D5 /* AliRibutProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA539E273E4E6A000789D5 /* AliRibutProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ECA53B9273E4E6A000789D5 /* AliRibutSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA539F273E4E6A000789D5 /* AliRibutSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3ECA53BA273E4E6A000789D5 /* AliRibutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECA53A0273E4E6A000789D5 /* AliRibutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3ECA53BB273E4E6A000789D5 /* AliRibutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA53A1273E4E6A000789D5 /* AliRibutManager.m */; };
 		3ED8DE8D27B900BF00E31C8A /* AliScreenshotService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED8DE8B27B900BF00E31C8A /* AliScreenshotService.h */; };
@@ -38,7 +37,6 @@
 		3ECA5398273E4E6A000789D5 /* AliSandboxModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliSandboxModule.h; sourceTree = "<group>"; };
 		3ECA5399273E4E6A000789D5 /* AliSandboxModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliSandboxModule.m; sourceTree = "<group>"; };
 		3ECA539E273E4E6A000789D5 /* AliRibutProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliRibutProtocol.h; sourceTree = "<group>"; };
-		3ECA539F273E4E6A000789D5 /* AliRibutSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliRibutSDK.h; sourceTree = "<group>"; };
 		3ECA53A0273E4E6A000789D5 /* AliRibutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliRibutManager.h; sourceTree = "<group>"; };
 		3ECA53A1273E4E6A000789D5 /* AliRibutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliRibutManager.m; sourceTree = "<group>"; };
 		3ED8DE8B27B900BF00E31C8A /* AliScreenshotService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliScreenshotService.h; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				3ECA539E273E4E6A000789D5 /* AliRibutProtocol.h */,
-				3ECA539F273E4E6A000789D5 /* AliRibutSDK.h */,
 				3ECA53A0273E4E6A000789D5 /* AliRibutManager.h */,
 				3ECA53A1273E4E6A000789D5 /* AliRibutManager.m */,
 			);
@@ -197,7 +194,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EDA2A8527BCA6F7000DD29F /* AliNetworkItem.h in Headers */,
-				3ECA53B9273E4E6A000789D5 /* AliRibutSDK.h in Headers */,
 				3EDA2A8727BCA6F7000DD29F /* AliNetworkService.h in Headers */,
 				3ECA53B8273E4E6A000789D5 /* AliRibutProtocol.h in Headers */,
 				3ECA53BA273E4E6A000789D5 /* AliRibutManager.h in Headers */,
