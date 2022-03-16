@@ -70,6 +70,7 @@ Android 7.0版本及以上
   - Android 
 
     ```java
+    //建立连接
     AliRibutManager.getInstance().connectWithUrl(url, MainActivity.this);
     ```
 
