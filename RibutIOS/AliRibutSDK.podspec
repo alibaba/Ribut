@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/alibaba/Ribut.git", :tag => "#{s.version}" }
 
-  s.source_files = "AliRibutSDK/**/*.{h,m}"
+  s.source_files = "RibutIOS/AliRibutSDK/**/*.{h,m}"
   s.requires_arc = true
   s.dependency  'AFNetworking'
   s.dependency 'SocketRocket'
