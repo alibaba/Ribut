@@ -2,6 +2,8 @@
 
 可视化调试架构是阿里巴巴优酷技术团队研发的一套端到端的研发提效解决方案，除了客户端SDK之外，还提供了配套了Mac和Windows版本的RibutApp，支持网络抓包、网络Mock、沙盒浏览，自定义插件扩展，RibutApp的目标是通过工具化手段，切实帮助广大研发同学解决日常痛点问题
 
+# 可视化调试功能演示
+![可视化架构演示](https://user-images.githubusercontent.com/5511525/158571609-1ad1402f-3655-416c-8371-51f6f491d470.gif)
 # 功能简介
 
 1. 网络抓包：拥有PC端可视化界面展示、无需配置代理，零操作成本抓包。   
@@ -12,10 +14,11 @@
 
 4. 动态配置能力：易扩展，业务可根据自身业务，快速接入Ribut，在PC端展示自己的业务数据
 
-# 工具
+# 安装App工具
 
 1. 找到RibutApp目录
 2. Mac找到Ribut-3.0.0-mac.z01文件解压安装，Windows找到Ribut-3.0.0-windows.z01文件解压安装
+
 
 
 # 接入
@@ -31,7 +34,7 @@ Android 7.0版本及以上
 #### iOS
 
 > ```objective-c
-> 导入AliRibutSDK文件夹   
+> 导入AliRibutSDK文件夹 或者  pod  'AliRibutSDK'  
 > ```
 >
 > 推荐更新使用最新版本Ribut，现最新版本：1.0.4.2。
