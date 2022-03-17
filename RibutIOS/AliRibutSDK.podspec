@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source_files = "RibutIOS/AliRibutSDK/**/*.{h,m}"
   s.requires_arc = true
   s.dependency  'AFNetworking'
-  s.dependency 'SocketRocket'
+  s.dependency 'SocketRocket' , '0.5.1'
   
   
 end
