@@ -34,7 +34,7 @@ Android 7.0版本及以上
 #### iOS
 
 > ```objective-c
-> 导入AliRibutSDK文件夹 或者  pod  'AliRibutSDK'  
+> pod  'AliRibutSDK'  
 > ```
 >
 > 推荐更新使用最新版本Ribut，现最新版本：1.0.4.2。
